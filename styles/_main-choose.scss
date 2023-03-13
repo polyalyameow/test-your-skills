@@ -86,3 +86,26 @@
 }
 
 }
+
+@media  screen and (max-width: 1150px) {
+    .main-choose{
+        &__text{
+          width: 40%;
+       }
+
+        &__text-title{
+            font-size: 33px;
+        } 
+
+        &__text-text{
+            font-size: 14px;
+        }
+
+        &__pic-pic-1,
+        &__pic-pic-2 {
+            width: 300px;
+            height: 180px; 
+            align-self: flex-start;
+        }
+    }
+}

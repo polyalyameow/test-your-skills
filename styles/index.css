@@ -199,6 +199,17 @@ button {
           justify-content: center;
 }
 
+@media screen and (max-width: 1150px) {
+  .landing-page__navigarion {
+    width: 80%;
+  }
+  .landing-page__navigation-link {
+    font-size: 12px;
+  }
+  .landing-page__navigation-logo {
+    font-size: 20px;
+  }
+}
 .main-choose {
   width: 100%;
   max-height: 685px;
@@ -285,6 +296,23 @@ button {
   outline-offset: 10px;
 }
 
+@media screen and (max-width: 1150px) {
+  .main-choose__text {
+    width: 40%;
+  }
+  .main-choose__text-title {
+    font-size: 33px;
+  }
+  .main-choose__text-text {
+    font-size: 14px;
+  }
+  .main-choose__pic-pic-1, .main-choose__pic-pic-2 {
+    width: 300px;
+    height: 180px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
 .main-process {
   width: 100%;
   max-height: 350px;
@@ -369,6 +397,26 @@ button {
   background-color: #333333;
 }
 
+@media screen and (max-width: 1011px) {
+  .main-process__caption {
+    font-size: 30px;
+  }
+}
+.process-glass,
+.fa-circle-check,
+.fa-thumbs-up {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1061px) {
+  .main-process__caption {
+    font-size: 20px;
+    text-align: center;
+  }
+  .main-process__wrapper {
+    height: 35%;
+  }
+}
 .main-choose {
   width: 100%;
   max-height: 685px;
@@ -464,6 +512,23 @@ button {
   outline-offset: 10px;
 }
 
+@media screen and (max-width: 1150px) {
+  .main-choose__text {
+    width: 40%;
+  }
+  .main-choose__text-title {
+    font-size: 33px;
+  }
+  .main-choose__text-text {
+    font-size: 14px;
+  }
+  .main-choose__pic-pic-1, .main-choose__pic-pic-2 {
+    width: 300px;
+    height: 180px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
 .main-description-1 {
   width: 100%;
   max-height: 750px;
@@ -699,6 +764,38 @@ button {
   color: #5474FD;
 }
 
+@media screen and (max-width: 1061px) {
+  .main-review__wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-review__tourist {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-review__tourist-pic {
+    width: 340px;
+    height: 230px;
+  }
+  .main-review__tourist-content {
+    width: 50%;
+  }
+  .main-review__tourist-content-wrapper {
+    width: 90%;
+  }
+  .main-review__tourist-content-title {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .main-review__tourist-content-text {
+    font-size: 12px;
+  }
+  .fa-quote-left {
+    font-size: 30px;
+  }
+}
 .footer {
   width: 100%;
   max-height: 271px;

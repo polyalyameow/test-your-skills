@@ -82,3 +82,41 @@
     font-size: 36px;
     color: #5474FD;
 }
+
+@media  screen and (max-width: 1061px){
+    .main-review{
+        &__wrapper{
+            justify-content: center;
+        }
+
+        &__tourist{
+            justify-content: center;
+        }
+
+        &__tourist-pic{
+            width: 340px;
+            height: 230px;
+        }
+        
+        &__tourist-content{
+            width: 50%;
+        }
+
+        &__tourist-content-wrapper{
+            width: 90%;
+        }
+
+        &__tourist-content-title{
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        &__tourist-content-text{
+            font-size: 12px;
+        }
+    }
+
+    .fa-quote-left{
+        font-size: 30px;
+    }
+}

@@ -63,3 +63,30 @@
     color: #00A2FF;
     background-color: #333333;
 }
+
+@media  screen and (max-width: 1011px){
+    .main-process{
+        &__caption{
+            font-size: 30px;
+        }
+    }
+}
+
+.process-glass,
+.fa-circle-check,
+.fa-thumbs-up{
+    font-size: 40px;
+}
+
+@media  screen and (max-width: 1061px){
+    .main-process{
+        &__caption{
+            font-size: 20px;
+            text-align: center;
+        }
+
+        &__wrapper{
+            height: 35%;
+        }
+    }
+}

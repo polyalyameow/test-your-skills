@@ -167,3 +167,19 @@ button{
    align-items: center;
   justify-content: center;
 }
+
+@media  screen and (max-width: 1150px) {
+    .landing-page{
+        &__navigarion{
+            width: 80%;
+        }
+
+        &__navigation-link{
+            font-size: 12px;
+        }
+
+        &__navigation-logo{
+            font-size: 20px;
+        }
+    }
+}
