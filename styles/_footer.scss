@@ -77,10 +77,14 @@
         &__text{
             font-size: 14px;
         }
+
+        &__wrapper{
+            width: 40%;
+        }
     }
 }
 
-@media  screen and (max-width: 737px){
+@media  screen and (max-width: 768px){
     .footer{
         &__wrapper{
             width: 30%;
@@ -100,6 +104,17 @@
     .footer{
         &__wrapper{
             width: 60%;
+        }
+    }
+}
+
+@media  screen and (max-width: 281px) {
+    .footer{
+        &__wrapper{
+            width: 80%;
+        }
+        &__text{
+            font-size: 12px;
         }
     }
 }

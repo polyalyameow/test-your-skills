@@ -147,3 +147,11 @@
         }
     }
 }
+
+@media  screen and (max-width: 281px){
+    .main-choose{
+        &__text-title{
+            font-size: 25px;
+        } 
+    }
+}

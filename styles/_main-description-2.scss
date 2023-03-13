@@ -27,3 +27,11 @@
         }
     }
 }
+
+@media  screen and (max-width: 281px){
+    .main-description-2{
+        &__wrapper{
+            width: 90%;
+        }
+    }
+}

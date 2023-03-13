@@ -341,3 +341,27 @@ button{
     }
 
 }
+
+@media  screen and (max-width: 349px){
+    .landing-page{
+        &__main-title{
+            font-size: 32px;
+            margin-top: 30px;
+            padding-top: 20px;
+        }
+
+        &__main-text{
+            font-size: 13px;
+        }
+    }
+
+    .btn{
+        width: 85%;
+    }
+}
+
+@media  screen and (max-width: 281px){
+    .btn{
+        width: 87%;
+    }
+}
