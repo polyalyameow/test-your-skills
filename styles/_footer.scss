@@ -31,7 +31,7 @@
 }
 
 &__title:hover{
-    text-shadow: 2px 2px gray;
+    text-shadow: 2px 2px orange;
     cursor: pointer;
 }
 
@@ -65,6 +65,10 @@
 
 &__list-link:hover{
     color: #5474FD;
+}
+
+&__list-link:focus{
+    text-shadow: 2px 2px orange;
 }
 }
 

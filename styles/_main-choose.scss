@@ -79,4 +79,10 @@
 &__btn:hover{
     filter: saturate(3);
 }
+
+&__btn:focus{
+    outline: 3px dashed orange;
+  outline-offset: 10px;
+}
+
 }

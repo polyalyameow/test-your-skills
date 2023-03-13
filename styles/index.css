@@ -129,6 +129,9 @@
 .landing-page__navigation-link:hover {
   font-size: 17px;
 }
+.landing-page__navigation-link:focus {
+  text-shadow: 2px 2px orange;
+}
 .landing-page__navigation-logo {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
@@ -138,7 +141,7 @@
   letter-spacing: 2.4px;
 }
 .landing-page__navigation-logo:hover {
-  text-shadow: 2px 2px gray;
+  text-shadow: 2px 2px orange;
   cursor: pointer;
 }
 
@@ -276,6 +279,10 @@ button {
 .main-choose__btn:hover, .main-description-1__btn:hover {
   -webkit-filter: saturate(3);
           filter: saturate(3);
+}
+.main-choose__btn:focus, .main-description-1__btn:focus {
+  outline: 3px dashed orange;
+  outline-offset: 10px;
 }
 
 .main-process {
@@ -450,6 +457,11 @@ button {
 .main-choose__btn:hover, .main-description-1__btn:hover {
   -webkit-filter: saturate(3);
           filter: saturate(3);
+}
+
+.main-choose__btn:focus, .main-description-1__btn:focus {
+  outline: 3px dashed orange;
+  outline-offset: 10px;
 }
 
 .main-description-1 {
@@ -732,7 +744,7 @@ button {
   margin-bottom: 0;
 }
 .footer__title:hover {
-  text-shadow: 2px 2px gray;
+  text-shadow: 2px 2px orange;
   cursor: pointer;
 }
 .footer__text {
@@ -766,6 +778,9 @@ button {
 }
 .footer__list-link:hover {
   color: #5474FD;
+}
+.footer__list-link:focus {
+  text-shadow: 2px 2px orange;
 }
 
 html {

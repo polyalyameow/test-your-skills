@@ -99,6 +99,10 @@
     font-size: 17px;
 }
 
+&__navigation-link:focus{
+    text-shadow: 2px 2px orange;
+}
+
 
 &__navigation-logo{
     font-family: fonts.$main-font;
@@ -110,7 +114,7 @@
 }
 
 &__navigation-logo:hover{
-    text-shadow: 2px 2px gray;
+    text-shadow: 2px 2px orange;
     cursor: pointer;
 }
 }
