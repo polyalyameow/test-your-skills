@@ -1,0 +1,65 @@
+@use 'fonts';
+
+.main-process{
+    width: 100%;
+    max-height: 350px;
+    height: 100%;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+&__wrapper{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: url(../images/arcs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+&__caption{
+    width: 220px;
+    font-size: 36px;
+    line-height: 26px;
+    color: fonts.$text-color;
+    font-family: fonts.$accent-font;
+    font-weight: map-get(fonts.$font-weights, regular);
+}
+
+&__search,
+&__select,
+&__book{
+    width: 0%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    
+}
+}
+
+.process-glass{
+    font-size: 60px;
+    color:  #5474FD;
+    background-color: #333333;
+}
+
+.fa-circle-check{
+    font-size: 60px;
+    color: #FF6363;
+    background-color: #333333;
+}
+
+.fa-thumbs-up{
+    font-size: 60px;
+    color: #00A2FF;
+    background-color: #333333;
+}

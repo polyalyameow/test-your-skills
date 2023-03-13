@@ -278,7 +278,92 @@ button {
           filter: saturate(3);
 }
 
+.main-process {
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-process__wrapper {
+  width: 50%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-image: url(../images/arcs.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-process__caption {
+  width: 220px;
+  font-size: 36px;
+  line-height: 26px;
+  color: #FFFFFF;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+}
+.main-process__search, .main-process__select, .main-process__book {
+  width: 0%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+}
+
+.process-glass {
+  font-size: 60px;
+  color: #5474FD;
+  background-color: #333333;
+}
+
+.fa-circle-check {
+  font-size: 60px;
+  color: #FF6363;
+  background-color: #333333;
+}
+
+.fa-thumbs-up {
+  font-size: 60px;
+  color: #00A2FF;
+  background-color: #333333;
+}
+
 html {
+  max-width: 1920px;
   margin: 0 auto;
   padding: 0;
   display: -webkit-box;
