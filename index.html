@@ -32,6 +32,7 @@
     ></script>
     <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="./styles/index.css" />
+    <script src="./styles/index.js"></script>
     <title>BHROMAON</title>
   </head>
   <body>
@@ -58,6 +59,7 @@
       </div>
       <nav class="landing-page__navigation">
         <h2 class="landing-page__navigation-logo">BHROMAON</h2>
+        <span class="open_bars" onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
         <ul class="landing-page__navigation-list">
           <li class="landing-page__navigation-point">
             <a class="landing-page__navigation-link" href="#">WHO WE ARE</a>
@@ -73,6 +75,15 @@
           </li>
         </ul>
       </nav>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a class="landing-page__navigation-link" href="#">WHO WE ARE</a>
+          <a class="landing-page__navigation-link" href="#">WHAT WE DO</a>
+          <a class="landing-page__navigation-link" href="#">TRAVEL WITH US</a>
+          <a class="landing-page__navigation-link" href="#">TRAVEL WITH US</a>
+        </div>
+      </div>
     </section>
     <section class="main-choose">
     

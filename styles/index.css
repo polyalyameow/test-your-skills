@@ -199,6 +199,14 @@ button {
           justify-content: center;
 }
 
+.fa-bars {
+  display: none;
+}
+
+.overlay {
+  display: none;
+}
+
 @media screen and (max-width: 1150px) {
   .landing-page__navigarion {
     width: 80%;
@@ -208,6 +216,73 @@ button {
   }
   .landing-page__navigation-logo {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 961px) {
+  .landing-page__navigation-list {
+    display: none;
+  }
+  .overlay {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #5474FD;
+    opacity: 0.8;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 38px;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 5px 5px #5474FD;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 3.125rem; /*50px;*/
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .overlay a:hover, .overlay a:focus {
+    font-size: 40px;
+    color: orange;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  .fa-bars {
+    font-size: 30px;
+    color: white;
+    display: block;
+  }
+  .open_bars {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .main-choose {
@@ -415,6 +490,17 @@ button {
   }
   .main-process__wrapper {
     height: 35%;
+  }
+}
+@media screen and (max-width: 961px) {
+  .main-process__search, .main-process__select, .main-process__book {
+    z-index: 0;
+  }
+  .process-glass,
+.fa-circle-check,
+.fa-thumbs-up {
+    background-color: transparent;
+    z-index: 0;
   }
 }
 .main-choose {
@@ -796,6 +882,18 @@ button {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 961px) {
+  .main-review__tourist-pic {
+    width: 50%;
+    height: 100%;
+  }
+  .main-review__tourist {
+    width: 80%;
+  }
+  .main-review__tourist-content {
+    width: 40%;
+  }
+}
 .footer {
   width: 100%;
   max-height: 271px;
@@ -880,6 +978,11 @@ button {
   text-shadow: 2px 2px orange;
 }
 
+@media screen and (max-width: 961px) {
+  .footer__text {
+    font-size: 14px;
+  }
+}
 html {
   max-width: 1920px;
   margin: 0 auto;

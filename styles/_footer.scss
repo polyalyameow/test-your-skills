@@ -72,4 +72,11 @@
 }
 }
 
+@media  screen and (max-width: 961px){
+    .footer{
+        &__text{
+            font-size: 14px;
+        }
+    }
+}
 

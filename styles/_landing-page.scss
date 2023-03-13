@@ -168,6 +168,14 @@ button{
   justify-content: center;
 }
 
+.fa-bars{
+    display: none;
+}
+
+.overlay{
+    display: none;
+}
+
 @media  screen and (max-width: 1150px) {
     .landing-page{
         &__navigarion{
@@ -181,5 +189,80 @@ button{
         &__navigation-logo{
             font-size: 20px;
         }
+    }
+}
+
+@media  screen and (max-width: 961px) {
+
+
+    .landing-page__navigation-list{
+        display: none;
+    }
+
+    .overlay {
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        background-color: #5474FD; 
+        opacity: 0.8; 
+        overflow-x: hidden; 
+        transition: 0.5s; 
+      }
+      
+
+      .overlay-content {
+        position: relative;
+        top: 30%; 
+        width: 100%; 
+        text-align: center; 
+        margin-top: 30px; 
+        // border: 2px solid red; 
+      }
+      
+      
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 38px;
+        font-family: fonts.$main-font;
+        text-shadow: 5px 5px #5474FD;
+        font-weight: map-get(fonts.$font-weights, bold);
+        color: fonts.$text-color;
+        font-size: 30px;
+        line-height: 3.125rem; /*50px;*/
+        display: block; 
+        transition: 0.3s; 
+      }
+      
+
+      .overlay a:hover, .overlay a:focus {
+        font-size: 40px;
+        color: orange;
+      }
+      
+     
+      .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+      }
+
+
+    .fa-bars{
+        font-size: 30px;
+        color: white;
+        display: block;
+
+    }
+    
+    .open_bars{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

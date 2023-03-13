@@ -90,3 +90,21 @@
         }
     }
 }
+
+@media  screen and (max-width: 961px) {
+    .main-process{
+        &__search,
+        &__select,
+        &__book{
+            z-index: 0;
+        }
+    }
+
+
+    .process-glass,
+    .fa-circle-check,
+    .fa-thumbs-up{
+        background-color: transparent;
+        z-index: 0;
+    }
+}
