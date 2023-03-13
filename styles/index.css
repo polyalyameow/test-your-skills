@@ -120,6 +120,26 @@
 }
 .landing-page__navigation-link {
   text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-family: "Aleo", serif;
+  font-size: 14px;
+  line-height: 26px;
+}
+.landing-page__navigation-link:hover {
+  font-size: 17px;
+}
+.landing-page__navigation-logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 2.4px;
+}
+.landing-page__navigation-logo:hover {
+  text-shadow: 2px 2px gray;
+  cursor: pointer;
 }
 
 .input-field {
@@ -150,6 +170,11 @@
   text-align: center;
 }
 
+.btn:hover {
+  -webkit-filter: saturate(3);
+          filter: saturate(3);
+}
+
 .fa-magnifying-glass {
   font-size: 20px;
   padding-left: 12px;
@@ -169,6 +194,88 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.main-choose {
+  width: 100%;
+  max-height: 685px;
+  height: 100%;
+  background-image: url(../images/dark-castle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.main-choose__text {
+  max-width: 560px;
+  width: 70%;
+  height: 60%;
+}
+.main-choose__text-title {
+  color: #FFFFFF;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+}
+.main-choose__text-text {
+  color: #FFFFFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.main-choose__pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+}
+.main-choose__pic-pic-1 {
+  width: 350px;
+  height: 220px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding-bottom: 10px;
+}
+.main-choose__pic-pic-2 {
+  width: 350px;
+  height: 220px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.main-choose__btn {
+  width: 228px;
+  height: 63px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  background-color: #5474FD;
+  color: #FFFFFF;
+  margin-top: 45px;
+  border: none;
+}
+.main-choose__btn:hover {
+  -webkit-filter: saturate(3);
+          filter: saturate(3);
 }
 
 html {

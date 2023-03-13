@@ -87,6 +87,31 @@
 }
 &__navigation-link{
     text-decoration: none;
+    color: fonts.$text-color;
+    font-weight: map-get(fonts.$font-weights, regular);
+    font-family: fonts.$accent-font;
+    font-size: 14px;
+    line-height: 26px;
+
+}
+
+&__navigation-link:hover{
+    font-size: 17px;
+}
+
+
+&__navigation-logo{
+    font-family: fonts.$main-font;
+    font-weight: map-get(fonts.$font-weights, bold);
+    color: fonts.$text-color;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+}
+
+&__navigation-logo:hover{
+    text-shadow: 2px 2px gray;
+    cursor: pointer;
 }
 }
 
@@ -118,9 +143,12 @@
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 1.4px;
-    text-align: center;
+    text-align: center; 
     
-    
+}
+
+.btn:hover{
+    filter: saturate(3);
 }
 
 .fa-magnifying-glass{
