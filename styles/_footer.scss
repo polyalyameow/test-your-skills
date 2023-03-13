@@ -80,3 +80,10 @@
     }
 }
 
+@media  screen and (max-width: 737px){
+    .footer{
+        &__wrapper{
+            width: 30%;
+        }
+    }
+}
