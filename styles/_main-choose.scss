@@ -139,3 +139,11 @@
         }
     }
 }
+
+@media  screen and (max-width: 469px){
+    .main-choose{
+        &__btn{
+            margin-top: 15px;
+        }
+    }
+}

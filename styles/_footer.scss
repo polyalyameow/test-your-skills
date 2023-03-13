@@ -87,3 +87,20 @@
         }
     }
 }
+
+@media  screen and (max-width: 576px){
+    .footer{
+        &__wrapper{
+            width: 40%;
+        }
+    }
+}
+
+@media  screen and (max-width: 434px) {
+    .footer{
+        &__wrapper{
+            width: 60%;
+        }
+    }
+}
+

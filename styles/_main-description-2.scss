@@ -19,3 +19,11 @@
     justify-content: center;
 }
 }
+
+@media  screen and (max-width: 434px) {
+    .main-description-2{
+        &__wrapper{
+            width: 80%;
+        }
+    }
+}

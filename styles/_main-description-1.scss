@@ -69,4 +69,10 @@
 
 }
 
-
+@media  screen and (max-width: 434px) {
+    .main-description-1{
+        &__wrapper{
+            width: 80%;
+        }
+    }
+}
